@@ -1,0 +1,991 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--<base target="_self">--><base href="." target="_self">
+    <title>
+	YTD_710663_FY202021
+</title><link href="./YTD_710663_FY202021_files/styles.css" rel="stylesheet" type="text/css">
+    <script async="" src="./YTD_710663_FY202021_files/adrum-ext.8c4a6dc76aa95fe7a1f821862569a8b8.js"></script><script language="javascript" type="text/javascript">
+        //printing section
+
+
+        //  Overlay function starts here
+        ////function getposOffset(overlay, offsettype) {
+        ////    var totaloffset = (offsettype == "right") ? overlay.offsetLeft : overlay.offsetTop;
+        ////    var parentEl = overlay.offsetParent;
+        ////    while (parentEl != null) {
+        ////        totaloffset = (offsettype == "left") ? totaloffset + parentEl.offsetLeft : totaloffset + parentEl.offsetTop;
+        ////        parentEl = parentEl.offsetParent;
+        ////    }
+        ////    return totaloffset;
+        ////}
+
+
+        function overlay(curobj, subobj, intleft, inttop) {
+            if (document.getElementById) {
+                var subobj = document.getElementById(subobj);
+                subobj.style.left = intleft;
+                subobj.style.top = inttop;
+                subobj.style.display = "block";
+                return false;
+            }
+            else
+                return true;
+        }
+
+        /*
+      @function Document overyclose function
+      */
+
+        function overlayclose(subobj) {
+            document.getElementById(subobj).style.display = "none";
+        }
+        // Overlay function End here
+        function Printing() {
+            //alert('Use landscape settings');
+
+            if (document.getElementById('printPay') != null)
+                document.getElementById('printPay').style.display = "none";
+            if (document.getElementById('hlkOtherDeduction') != null)
+                document.getElementById('hlkOtherDeduction').style.display = "none";
+            if (document.getElementById('hlkSpecialpay') != null)
+                document.getElementById('hlkSpecialpay').style.display = "none";
+            if (document.getElementById('divAuth') != null)
+                document.getElementById('divAuth').style.display = "inline";
+
+            window.print();
+
+            if (document.getElementById('printPay') != null)
+                document.getElementById('printPay').style.display = "inline";
+            if (document.getElementById('divAuth') != null)
+                document.getElementById('divAuth').style.display = "none";
+            if (document.getElementById('hlkOtherDeduction') != null)
+                document.getElementById('hlkOtherDeduction').style.display = "inline";
+            if (document.getElementById('hlkSpecialpay') != null)
+                document.getElementById('hlkSpecialpay').style.display = "inline";
+        }
+        ////function insertScript(bool) {
+        ////    //alert(bool);
+        ////    if (bool == true) {
+        ////        var subobj = document.getElementById('divAuth');
+        ////        subobj.style.display = "block";
+        ////    }
+        ////    else {
+        ////        var subobj = document.getElementById('divAuth');
+        ////        subobj.style.display = "none";
+        ////    }
+        ////}
+    </script>
+<script src="./YTD_710663_FY202021_files/adrum-config_779.js"></script><script src="./YTD_710663_FY202021_files/adrum_779.js"></script></head>
+<body>
+    <div class="formContainer formContainerAlignCenter">
+        <form method="post" action="https://onecognizantbcazrapps.cognizant.com/779/UI.MyStatements/YearToDatePayslip.aspx?ismulticompany=4Iqk7OHwleuEyP%2fCViJueg%3d%3d&amp;companyId=L1dFyfPrRBpVdGGVdOVyrw%3d%3d&amp;month=ix0cQa5nulWGLh%2fauM%2fGhg%3d%3d&amp;year=rQgGteAGcR0jMXa6ENBg9w%3d%3d&amp;userid+=710663" id="frmYTDpayslip">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7D13D072">
+</div>
+        
+        <table id="tblRecordExit" align="center" cellpadding="0" cellspacing="0" border="0" width="90%">
+	<tbody><tr valign="top">
+		<td>
+                    <table width="100%" border="0" id="Table2" cellpadding="0" cellspacing="0">
+                        <!--T1 Starts-->
+                        <tbody><tr>
+                            <td style="width: 281" align="left">
+                                <img src="./YTD_710663_FY202021_files/logo_cts_2018.png" style="width: 210px;" "="" id="logo">
+                            </td>
+                            <td style="width: 95%" colspan="1" align="center" class="TD_smallfont_payslip">
+                                <b>
+                                    <span id="lblCompanyName">Cognizant Technology Solutions India Private Ltd<br><br>Earnings Statement for the Financial period</span>
+                                    <span id="lblFinancialYear">2020-21</span></b>
+                            </td>
+                            <td class="TD_smallfont_payslip">
+                                <b><a href="https://onecognizantbcazrapps.cognizant.com/779/UI.MyStatements/YearToDatePayslip.aspx?ismulticompany=4Iqk7OHwleuEyP%2fCViJueg%3d%3d&amp;companyId=L1dFyfPrRBpVdGGVdOVyrw%3d%3d&amp;month=ix0cQa5nulWGLh%2fauM%2fGhg%3d%3d&amp;year=rQgGteAGcR0jMXa6ENBg9w%3d%3d&amp;userid%20=710663#" id="printPay" name="printPay" onclick="Printing();">Print</a></b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" class="TD_smallfont_payslip" colspan="3">
+                                <b>PRIVATE &amp; CONFIDENTIAL</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div id="divUserDetails" class="formsInnerContentArea innerSep-100" style="font-weight: bold">
+                                    <div class="col-50 alignLeft">
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                Name
+                                            </label>
+                                            <span id="lblName" class="label-02_YTD alignLeft">Abhisek Tripathy</span>
+                                        </div>
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                ID</label>
+                                            <span id="lblID" class="label-02_YTD alignLeft">710663</span>
+                                        </div>
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                Designation</label>
+                                            <span id="lblDesignation" class="label-02_YTD alignLeft">Sr. Infra Developer</span>
+                                        </div>
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                Gender</label>
+                                            <span id="lblGender" class="label-02_YTD alignLeft">Male</span>
+                                        </div>
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                Location
+                                            </label>
+                                            <span id="lblLocation" class="label-02_YTD alignLeft">Bangalore - KA IND, CLT</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-50 alignLeft">
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                PAN</label>
+                                            <span id="lblPan" class="label-02_YTD alignLeft">AVEPT2261R</span>
+                                        </div>
+                                        <div class="col-100">
+                                            <label class="label-01_YTD">
+                                                PF Account Number</label>
+                                            <span id="lblPFno" class="label-02_YTD alignLeft">TN/MAS/31309/1725597</span>
+                                        </div>
+                                        <div id="uan_clmn" class="col-100">
+                                            <label class="label-01_YTD">
+                                                Universal Account Number</label>
+                                            <span id="lblUAN" class="label-02_YTD alignLeft">100639569258</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tbody><tr style="background: white; width: 100%; height: 14px; border-width: thick">
+                            <td width="100%" align="left" class="TD_smallfont_payslip">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td>
+                                            <b><h3>Earnings</h3></b>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <td align="center" width="100%">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td>
+                                            <div>
+			<table class="grid" cellspacing="0" rules="all" border="1" id="gvEarnings" style="width:100%;border-collapse:collapse;">
+				<tbody><tr class="GridHeader1">
+					<th scope="col">Regular Earnings</th><th scope="col">Apr'20</th><th scope="col">May'20</th><th scope="col">Jun'20</th><th scope="col">Jul'20</th><th scope="col">Aug'20</th><th scope="col">Sep'20</th><th scope="col">Oct'20</th><th scope="col">Nov'20</th><th scope="col">Dec'20</th><th scope="col">Jan'21</th><th scope="col">Feb'21</th><th scope="col">Mar'21</th><th scope="col">Total</th>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_0">Paid days</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_0">30</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_0">31</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_0">30</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_0">31</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_0">31</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_0">30</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_0">31</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_0">30</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_0">31</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_0">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_0">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_0">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_0">275</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_1">Basic</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_1">24,375</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_1">28,950</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_1">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_1">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_1">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_1">223,950</span>
+                                                        </td>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_2">House Rent Allowance</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_2">14,625</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_2">15,540</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_2">132,540</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_3">Conveyance Allowance</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_3">800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_3">7,200</span>
+                                                        </td>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_4">Medical Allowance</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_4">1,250</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_4">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_4">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_4">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_4">11,250</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_5">Special Allowance</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_5">23,609</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_5">24,096</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_5">24,096</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_5">24,096</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_5">23,609</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_5">23,609</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_5">23,609</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_5">23,609</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_5">30,770</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_5">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_5">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_5">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_5">221,103</span>
+                                                        </td>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_6">Special Pay*</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_6">24,446</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_6">6,550</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_6">2,300</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_6">1,800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_6">1,800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_6">1,800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_6">1,800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_6">1,800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_6">1,800</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_6">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_6">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_6">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_6">44,096</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_7">Skill Premium Allowance</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_7">2,917</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_7">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_7">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_7">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_7">26,253</span>
+                                                        </td>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_8">Advance Statutory Bonus</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_8">2,000</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_8">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_8">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_8">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_8">18,000</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvEarnings_Label0_9">Gross Earnings(A)</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label1_9">94,022</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label2_9">76,613</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label3_9">72,363</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label4_9">71,863</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label5_9">71,376</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label6_9">71,376</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label7_9">71,376</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label8_9">71,376</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label9_9">84,027</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label10_9">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label11_9">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label12_9">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvEarnings_Label13_9">684,392</span>
+                                                        </td>
+				</tr>
+			</tbody></table>
+		</div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr id="hlkSpecialpay" name="hlkSpecialpay" style="height:30px">
+			<td width="100%">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td align="left" style="width: 60; height:30">
+                                            <a href="https://onecognizantbcazrapps.cognizant.com/779/UI.MyStatements/YearToDatePayslip.aspx?ismulticompany=4Iqk7OHwleuEyP%2fCViJueg%3d%3d&amp;companyId=L1dFyfPrRBpVdGGVdOVyrw%3d%3d&amp;month=ix0cQa5nulWGLh%2fauM%2fGhg%3d%3d&amp;year=rQgGteAGcR0jMXa6ENBg9w%3d%3d&amp;userid%20=710663#" onclick="javascript:return overlay(this, &#39;specialpay&#39;,80,460);" class="TD_smallfont_payslip" onmouseover="window.status=&quot;Click to View the details&quot;;return true;" onmouseout="window.status=&quot;Done&quot;;return true;">SpecialPay Details</a>
+                                            <div id="specialpay" style="position: absolute; display: none">
+                                                <div style="border: 3px solid steelblue; background-color: #daecf8; width: 1150px;
+                                                    padding: 9px; text-align: left;">
+                                                    <table border="1" cellpadding="1" cellspacing="1" style="left: 5px; width: 100%;
+                                                        top: 13px; background: #0064a8; text-align: center;">
+                                                        <tbody><tr class="TD_smallfont_payslip" style="background-color: White;">
+                                                            <td colspan="2" class="TD_smallfont_payslip">
+                                                                <div>
+				<table class="grid" cellspacing="0" rules="all" border="1" id="gvSpecialPay" style="width:100%;border-collapse:collapse;">
+					<tbody><tr class="GridHeader1">
+						<th scope="col">Description</th><th scope="col">Apr'20</th><th scope="col">May'20</th><th scope="col">Jun'20</th><th scope="col">Jul'20</th><th scope="col">Aug'20</th><th scope="col">Sep'20</th><th scope="col">Oct'20</th><th scope="col">Nov'20</th><th scope="col">Dec'20</th><th scope="col">Jan'21</th><th scope="col">Feb'21</th><th scope="col">Mar'21</th><th scope="col">Total</th>
+					</tr><tr>
+						<td align="left" style="width:15%;">
+                                                                                <span id="gvSpecialPay_LabelS0_0">Deputation Allowance-payout</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS1_0">5,250</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS2_0">4,750</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS3_0">500</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS4_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS5_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS6_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS7_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS8_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_Label1S9_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS10_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS11_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS12_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS13_0">10,500</span>
+                                                                            </td>
+					</tr><tr class="odd">
+						<td align="left" style="width:15%;">
+                                                                                <span id="gvSpecialPay_LabelS0_1">Internet Allowance - WFH</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS1_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS2_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS3_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS4_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS5_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS6_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS7_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS8_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_Label1S9_1">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS10_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS11_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS12_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS13_1">16,200</span>
+                                                                            </td>
+					</tr><tr>
+						<td align="left" style="width:15%;">
+                                                                                <span id="gvSpecialPay_LabelS0_2">Covid19 Allowance</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS1_2">17,396</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS2_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS3_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS4_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS5_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS6_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS7_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS8_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_Label1S9_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS10_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS11_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS12_2">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS13_2">17,396</span>
+                                                                            </td>
+					</tr><tr class="odd">
+						<td align="left" style="width:15%;">
+                                                                                <span id="gvSpecialPay_LabelS0_3">Total</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS1_3">24,446</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS2_3">6,550</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS3_3">2,300</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS4_3">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS5_3">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS6_3">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS7_3">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS8_3">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_Label1S9_3">1,800</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS10_3">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS11_3">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS12_3">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvSpecialPay_LabelS13_3">44,096</span>
+                                                                            </td>
+					</tr>
+				</tbody></table>
+			</div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                    <div style="text-align: right">
+                                                        <a href="https://onecognizantbcazrapps.cognizant.com/779/UI.MyStatements/YearToDatePayslip.aspx?ismulticompany=4Iqk7OHwleuEyP%2fCViJueg%3d%3d&amp;companyId=L1dFyfPrRBpVdGGVdOVyrw%3d%3d&amp;month=ix0cQa5nulWGLh%2fauM%2fGhg%3d%3d&amp;year=rQgGteAGcR0jMXa6ENBg9w%3d%3d&amp;userid%20=710663#" class="TD_smallfont_payslip" onclick="javascript:overlayclose(&#39;specialpay&#39;);">
+                                                            Close</a></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+		</tr>
+		
+                        <tr style="background: white; width: 100%; height: 14px;">
+                            <td width="100%" align="left" class="TD_smallfont_payslip">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td align="left" class="TD_smallfont_payslip">
+                                            <b><h3>Deductions</h3></b>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="100%" align="left" class="TD_smallfont_payslip">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td align="left">
+                                            <h3><b>&nbsp;Regular Deductions</b></h3>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" width="100%">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td>
+                                            <div>
+			<table class="grid" cellspacing="0" rules="all" border="1" id="gvDeductions" style="width:100%;border-collapse:collapse;">
+				<tbody><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvDeductions_LabelD0_0">Provident Fund</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD1_0">2,925</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD2_0">2,438</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD3_0">2,438</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD4_0">2,438</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD5_0">2,925</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD6_0">2,925</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD7_0">2,925</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD8_0">2,925</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD9_0">3,474</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD10_0">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD11_0">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD12_0">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD13_0">25,413</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvDeductions_LabelD0_1">ProfessionTax</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD1_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD2_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD3_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD4_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD5_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD6_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD7_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD8_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD9_1">200</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD10_1">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD11_1">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD12_1">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD13_1">1,800</span>
+                                                        </td>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvDeductions_LabelD0_2">TDS</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD1_2">10,458</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD2_2">6,936</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD3_2">6,052</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD4_2">1,679</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD5_2">1,577</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD6_2">1,577</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD7_2">1,579</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD8_2">1,577</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD9_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD10_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD11_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD12_2">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD13_2">31,435</span>
+                                                        </td>
+				</tr><tr class="odd">
+					<td align="left" style="width:15%;">
+                                                            <span id="gvDeductions_LabelD0_3">Other Deductions</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD1_3">79,887</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD2_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD3_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD4_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD5_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD6_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD7_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD8_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD9_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD10_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD11_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD12_3">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD13_3">79,887</span>
+                                                        </td>
+				</tr><tr>
+					<td align="left" style="width:15%;">
+                                                            <span id="gvDeductions_LabelD0_4">Gross Deductions(B)</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD1_4">93,470</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD2_4">9,574</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD3_4">8,690</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD4_4">4,317</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD5_4">4,702</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD6_4">4,702</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD7_4">4,704</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD8_4">4,702</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD9_4">3,674</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD10_4">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD11_4">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD12_4">-</span>
+                                                        </td><td align="right" style="width:5%;">
+                                                            <span id="gvDeductions_LabelD13_4">138,535</span>
+                                                        </td>
+				</tr>
+			</tbody></table>
+		</div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr id="hlkOtherDeduction" name="hlkOtherDeduction" style="height:30px">
+			<td width="100%">
+                                <table width="100%" style="border: Solid 1px #808080;" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td align="left" style="width: 60; height:30">
+                                            <a href="https://onecognizantbcazrapps.cognizant.com/779/UI.MyStatements/YearToDatePayslip.aspx?ismulticompany=4Iqk7OHwleuEyP%2fCViJueg%3d%3d&amp;companyId=L1dFyfPrRBpVdGGVdOVyrw%3d%3d&amp;month=ix0cQa5nulWGLh%2fauM%2fGhg%3d%3d&amp;year=rQgGteAGcR0jMXa6ENBg9w%3d%3d&amp;userid%20=710663#" onclick="javascript:return overlay(this, &#39;specialded&#39;,80,680);" class="TD_smallfont_payslip" onmouseover="window.status=&quot;Click to View the details&quot;;return true;" onmouseout="window.status=&quot;Done&quot;;return true;">
+                                                OtherDeductions Details</a>
+                                            <div id="specialded" style="position: absolute; display: none">
+                                                <div style="border: 3px solid steelblue; background-color: #daecf8; width: 1150px;
+                                                    padding: 9px; text-align: left;">
+                                                    <table border="1" cellpadding="1" cellspacing="1" style="left: 5px; width: 100%;
+                                                        top: 13px; background: #0064a8; text-align: center;">
+                                                        <tbody><tr class="TD_smallfont_payslip" style="background-color: White;">
+                                                            <td colspan="2" class="TD_smallfont_payslip">
+                                                                <div>
+				<table class="grid" cellspacing="0" rules="all" border="1" id="gvOtherDeductions" style="width:100%;border-collapse:collapse;">
+					<tbody><tr class="GridHeader1">
+						<th scope="col">Description</th><th scope="col">Apr'20</th><th scope="col">May'20</th><th scope="col">Jun'20</th><th scope="col">Jul'20</th><th scope="col">Aug'20</th><th scope="col">Sep'20</th><th scope="col">Oct'20</th><th scope="col">Nov'20</th><th scope="col">Dec'20</th><th scope="col">Jan'21</th><th scope="col">Feb'21</th><th scope="col">Mar'21</th><th scope="col">Total</th>
+					</tr><tr>
+						<td align="left" style="width:14%;">
+                                                                                <span id="gvOtherDeductions_LabelR0_0">Salary Paid on 30-04-2020</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR1_0">79,887</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR2_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR3_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR4_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR5_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR6_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR7_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR8_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR9_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR10_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR11_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR12_0">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR13_0">79,887</span>
+                                                                            </td>
+					</tr><tr class="odd">
+						<td align="left" style="width:14%;">
+                                                                                <span id="gvOtherDeductions_LabelR0_1">Total</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR1_1">79,887</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR2_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR3_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR4_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR5_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR6_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR7_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR8_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR9_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR10_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR11_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR12_1">-</span>
+                                                                            </td><td align="right" style="width:5%;">
+                                                                                <span id="gvOtherDeductions_LabelR13_1">79,887</span>
+                                                                            </td>
+					</tr>
+				</tbody></table>
+			</div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                    <div style="text-align: right">
+                                                        <a href="https://onecognizantbcazrapps.cognizant.com/779/UI.MyStatements/YearToDatePayslip.aspx?ismulticompany=4Iqk7OHwleuEyP%2fCViJueg%3d%3d&amp;companyId=L1dFyfPrRBpVdGGVdOVyrw%3d%3d&amp;month=ix0cQa5nulWGLh%2fauM%2fGhg%3d%3d&amp;year=rQgGteAGcR0jMXa6ENBg9w%3d%3d&amp;userid%20=710663#" class="TD_smallfont_payslip" onclick="javascript:overlayclose(&#39;specialded&#39;);">
+                                                            Close</a></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+		</tr>
+		
+                        <tr style="background: white; width: 100%; border-top-width: 0" height="0">
+                            <td width="100%" align="left">
+                                <div>
+			<table class="grid myStatementBG_color1" cellspacing="0" rules="all" border="1" id="GvTotal" style="width:100%;border-collapse:collapse;">
+				<tbody><tr>
+					<td align="left" style="width:15%;">Net Earnings (A)-(B)</td><td align="right" style="width:5%;">552</td><td align="right" style="width:5%;">67,039</td><td align="right" style="width:5%;">63,673</td><td align="right" style="width:5%;">67,546</td><td align="right" style="width:5%;">66,674</td><td align="right" style="width:5%;">66,674</td><td align="right" style="width:5%;">66,672</td><td align="right" style="width:5%;">66,674</td><td align="right" style="width:5%;">80,353</td><td align="right" style="width:5%;">-</td><td align="right" style="width:5%;">-</td><td align="right" style="width:5%;">-</td><td align="right" style="width:5%;">545,857</td>
+				</tr>
+			</tbody></table>
+		</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="width: 100%;" border="0" cellpadding="0" cellspacing="0" id="Table6">
+                                    <!--T5 Starts-->
+                                    <tbody><tr>
+                                        <td align="left" class="TD_smallfont_payslip normal_txt" valign="top">
+                                            &nbsp;
+                                            <br>
+                                            This computer generated statement is not valid unless authorized.<br>
+                                            Note: The amount paid includes payments made through salary,arrears,incentive if
+                                            any for the respective month.<br>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                                <!--T5 Ends-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br>
+                                <div id="divAuth" style="display: none;">
+                                    <table id="tblAuth" border="1" width="100%" cellpadding="0" class="innerTable" cellspacing="0" align="center">
+			<tbody><tr class="innerTableHead">
+				<td align="left" class="TD_smallfont_payslip" style="border-width: salid 0px;">
+                                                <b>Authorization</b><br>
+                                            </td>
+			</tr>
+			<tr style="background: white;">
+				<td align="center" class="TD_smallfont_payslip" style="border-width: salid 0px;">
+                                                <span id="lbladdress">Cognizant Technology Solutions India Private Ltd<br>Registered Office:Cognizant Technology Solutions India Private Limited<br># 5/535, old Mahabalipuram Road, Chennai - 600 097.</span>
+                                                
+                                            </td>
+			</tr>
+		</tbody></table>
+		
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+	</tr>
+</tbody></table>
+
+        </form>
+    </div>
+
+
+</body></html>

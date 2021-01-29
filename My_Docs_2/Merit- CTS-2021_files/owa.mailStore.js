@@ -1,0 +1,3 @@
+self.scriptsLoaded = self.scriptsLoaded || {}; self.scriptProcessStart = self.scriptProcessStart || {}; self.scriptProcessStart['owa.mailStore.js'] = (new Date()).getTime();(window.$wj=window.$wj||[]).push([[1154],{17474:function(n,e,t){"use strict";t.r(e);var i=t(1638),o=t(188),c=Object(o.action)("setTriageActionAnnouncement")((function(n,e){void 0===e&&(e="polite");var t=Object(i.b)();t.triageAnnouncement={message:t.triageAnnouncement.message===n?n+" ":n,politenessSetting:e}}));t.d(e,"setTriageActionAnnouncement",(function(){return c}))}}]);
+//# sourceMappingURL=owa.mailStore.js.map
+self.scriptsLoaded['owa.mailStore.js'] = 1; self.scriptProcessEnd = self.scriptProcessEnd || {}; self.scriptProcessEnd['owa.mailStore.js'] = (new Date()).getTime();
